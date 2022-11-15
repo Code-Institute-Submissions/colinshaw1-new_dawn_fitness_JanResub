@@ -1,0 +1,210 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "p000000001",
+            "name": "Earth Pull Protein",
+            "description": "Our most popular plant based protein, Earth Protein is a great alternative to whey based proteins and is available in seven great flavours.",
+            "price": 48.99,
+            "category": 1,
+            "rating": 4.6,
+            "image": "earthpull.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "p000000002",
+            "name": "1 Month Membership",
+            "description": "One months access to New Dawn Fitness online Platform",
+            "price": 29.99,
+            "category": 4,
+            "rating": 5,
+            "image": "1month.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "p000000003",
+            "name": "6 Month Membership",
+            "description": "Six months access to New Dawn Fitness online Platform",
+            "price": 99.99,
+            "category": 4,
+            "rating": 5,
+            "image": "6month.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "p000000004",
+            "name": "12 Month Membership",
+            "description": "Tweleve months access to New Dawn Fitness online Platform",
+            "price": 129.99,
+            "category": 4,
+            "rating": 5,
+            "image": "12months.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "p000000005",
+            "name": "Alpha GPC Supplement",
+            "description": "Alpha GPC 300 mg tables. Helps Cognitive Support, Bioavilable source of Choline, Supports Mental Acuity. 60 Veg Capsules",
+            "price": 19.99,
+            "category": 5,
+            "rating": 4.0,
+            "image": "alpha.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "p000000006",
+            "name": "Aware Protien Bundle",
+            "description": "Aware protein bundle, includes Creatine, Whey Protein, Pre-Workout and BCAA",
+            "price": 79.99,
+            "category": 1,
+            "rating": 4.7,
+            "image": "aware.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "p000000007",
+            "name": "Collagen 90 Capsules/500mg",
+            "description": "Support your natural collagen levels with a high-quality source of this essential protein.",
+            "price": 24.99,
+            "category": 5,
+            "rating": 4.6,
+            "image": "collagen.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "p000000008",
+            "name": "Goli Supperfruit Gummies 60 pieces",
+            "description": "Our unique blend captures the distinctive properties of vitamins, minerals and botanicals resulting in a perfect synergy of beauty, wellness and nutrition./ Our delicious Superfruits Gummies are filled with antioxidants and essential nutrients for real results. This proprietary formula improves collagen formation and skin elasticity, restores skin’s radiance, supports a healthy immune system and so much more!",
+            "price": 16.99,
+            "category": 5,
+            "rating": 4.8,
+            "image": "goli.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "p000000009",
+            "name": "Jellybee Gummies Set! Tumeric and Ginger and Collagen 60 piece gummie set",
+            "description": "Get your essential dose of macros & vitamins: our gummies contain only what the body needs. With gummies, you’ll never forget to take your supplements - they’re delicious and easy to consume.",
+            "price": 24.99,
+            "category": 5,
+            "rating": 4.2,
+            "image": "gummies.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "p000000010",
+            "name": "Huel Protien",
+            "description": "Huel 100% Nutritionally Complete Meal Vanilla 500ml. Huel (Human + Fuel) is nutritionally complete drink. This means every Huel meal contains a balance of all 26 essential vitamins and minerals, protein, essential fats, carbs, fibre and phytonutrients in a single product.",
+            "price": 33.99,
+            "category": 1,
+            "rating": 4.4,
+            "image": "huel.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "p000000011",
+            "name": "Nocco Caribbean 330ml 12 can pack",
+            "description": "Refresh & Replenish - Perfect for athletes, fitness fans and those living demanding everyday lives. Great Pre and Post Workout drink – The ‘go to’ drink for reducing fatigue and maintaining muscle function. Zero sugar, BCAA and Vitamin energy drink.",
+            "price": 18.99,
+            "category": 2,
+            "rating": 4.9,
+            "image": "nocco.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "p000000012",
+            "name": "Nocco Lemon 330ml 12 can pack",
+            "description": "Refresh & Replenish - Perfect for athletes, fitness fans and those living demanding everyday lives. Great Pre and Post Workout drink – The ‘go to’ drink for reducing fatigue and maintaining muscle function. Zero sugar, BCAA and Vitamin energy drink.",
+            "price": 18.99,
+            "category": 2,
+            "rating": 4.9,
+            "image": "noccolemon.jpg"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "p000000013",
+            "name": "Ancient Omega Whole Body 1000mg Omega 3x",
+            "description": "Ancient Omega-3 Nutrition for the Modern World. An innovation thousands of years in the making - Ancient Omegas is a convergence of plant-based and wild, ocean-derived essential fats infused with ancient botanicals.",
+            "price": 20.0,
+            "category": 5,
+            "rating": 4.2,
+            "image": "omega.jpg"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "p000000014",
+            "name": "Organic Rice Protien",
+            "description": "Brown rice protein is one of the best protein sources for athletes on a vegan or non-meat diet, and our Brown Rice Protein 80 formula offers an incredible 80% protein content. Not only that, Brown rice protein is one of the most digestible protein sources available, meaning your body can process its nutrition with ease.",
+            "price": 26.99,
+            "category": 1,
+            "rating": 4.7,
+            "image": "organic.jpg"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "p000000015",
+            "name": "UPBEAT Juciy Protein Water. Blueberry & Rasberry flavour. 4 Pack",
+            "description": "Daily Boost: Great taste. Zero Sugar. Each 500ml bottle is packed with 12g of whey protein isolate, plant based sweetener, 0g of sugar, 4 essential B vitamins, and just 59 calories. Flavoured with real fruit juice for tasty and refreshing hydration. UPBEAT is suitable for vegetarians.",
+            "price": 9.99,
+            "category": 2,
+            "rating": 4.8,
+            "image": "upbeat.jpg"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "p000000015",
+            "name": "Ancient Nutrients Zinc probiotics. 30 capsiles",
+            "description": "Ancient Nutrition formulated a one-of-a-kind zinc like you've never seen before. Ancient Nutrition paired enzyme activated, body-ready zinc with a tough probiotic strain that can withstand harsh conditions to form immune-supporting, science-backed capsules. This combination delivers benefits like support for a healthy immune defense, overall immune support, gut and respiratory mucosal immune responses and more.",
+            "price": 22.99,
+            "category": 5,
+            "rating": 4.4,
+            "image": "zinc.jpg"
+        }
+    }
+]
