@@ -40,12 +40,12 @@
   <body>
     <!--header for the top of the bag nad make sure it sticks to the top of the page-->
     <header class="container-fluid fixed-top">
-        <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
+        <div id="topnav" class="row bg-dark pt-lg-2 d-none d-lg-flex">
             <!--bootstrap so they stack vertacliyy on all screens and centred-->
             <div class="col-10 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <!--links to the homepage url from urls.py-->
                 <a href="{% url 'homepage' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-black my-0"><strong>New Dawn Fitness</strong></h2>
+                    <h2 class="logo-font text-white my-0"><strong>New Dawn Fitness</strong></h2>
                 </a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
@@ -66,12 +66,12 @@
                 </form>
             </div>
             <!--column for shopping bag and accoutns links-->
-            <div class="col col-10 col-lg-4 my-auto py-1 py-lg-0">
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-">
                 <!--bootstrap list inlines are from bootstarp documention-->
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
                         <!--Anchor acts as a parent menu for the font awesome icon and accoputn text-->
-                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="text-white nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
                                 <!--dropdown menu that opens when clicked-->
                                 <div><i class="fas fa-user fa-lg"></i></div>
@@ -95,7 +95,7 @@
                     </li>
                     <li class="list-inline-item">
                         <!--shopping bag link-->
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
+                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-white{% endif %} nav-link" href="">
                             <div class="text-center">
                                 <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                                 <p class="my-0">
