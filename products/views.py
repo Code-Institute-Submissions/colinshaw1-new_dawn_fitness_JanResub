@@ -20,7 +20,7 @@ def product_detail(request, product_id):
     """ A view to single product details """
 
     # taking in project id and getting object 404
-    product = get_object_or_40(Product, pk=product_id)
+    product = get_object_or_404(Product, pk=product_id)
 
     context = {
         'product': product,
