@@ -14,10 +14,29 @@ def products_view(request):
     query = None
     #query for returning selected products by categories
     categories = None
+    # query for returning sproducts in sort query
+    sort = None
+    # query for returning sproducts in direction query
+    direction = None
 
     # method taken from course content
     # checking if requests. GET exists
     if request.GET:
+
+        # if statment to sort by pricing, rating or category in a certain direction
+        if 'sort' in request.GET:
+            sortkey = request.GET['sort']
+            sort = sortkey
+            # annotate to allow case sensitive sorting
+            if sortkey == 'name':
+                sortkey = 'lower_name'
+                products = products.annotate(lower_name=Lower('name'))
+
+            if 'direction' in request.GET:
+                direction = request.GET['direction']
+                if direction == 'desc':
+                    sortkey = f'-{sortkey}'
+            products = products.order_by(sortkey)
 
         # if statment for selected categories to be returned
         if 'category' in request.GET:
@@ -38,6 +57,8 @@ def products_view(request):
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             # passing to filter message to filter products
             products = products.filter(queries)
+    # fortmainting sort
+    current_sorting = f'{sort}_{direction}'
 
     context = {
         'products': products,
@@ -45,6 +66,8 @@ def products_view(request):
         'search_term' : query,
         # category objects
         'current_categories':categories,
+        #sorting object
+        'current_sorting': current_sorting,
     }
     #return on products.html page
     return render(request, 'products/products.html', context)
