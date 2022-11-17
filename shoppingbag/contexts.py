@@ -23,14 +23,15 @@ def bag_contents(request):
     grand_total = delivery + total
 
     # returns a dictionary as context processer
+    # makes all avilabe in all templates
     context = {
-        'bag_items': bag_items
-        'total': total
-        'product_count': product_count
-        'delivery': delivery
-        'free_delivery_delta': free_delivery_delta
-        'FREE_DELIVERY_THRESHOLD': FREE_DELIVERY_THRESHOLD
-        'grand_total': grand_total
+        'bag_items': bag_items,
+        'total': total,
+        'product_count': product_count,
+        'delivery': delivery,
+        'free_delivery_delta': free_delivery_delta,
+        'free_delivery_threshold': settings.FREE_DELIVERY_THRESHOLD,
+        'grand_total': grand_total,
 
     }
 
