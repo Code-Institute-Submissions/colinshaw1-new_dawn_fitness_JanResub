@@ -18,11 +18,12 @@
                 Supplements
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="supplement-link">
-                <a href="" class="dropdown-item">Protien</a>
-                <a href="" class="dropdown-item">Amino Acids</a>
-                <a href="" class="dropdown-item">Creatine</a>
-                <a href="" class="dropdown-item">Vitamins</a>
-                <a href="" class="dropdown-item">All Supplements</a>
+                <!-- add links to categories using products url and linking them to the selcted categories -->
+                <a href="{% url 'products' %}?category=protein" class="dropdown-item">Protien</a>
+                <a href="{% url 'products' %}?category=amino_acids" class="dropdown-item">Amino Acids</a>
+                <a href="{% url 'products' %}?category=creatine" class="dropdown-item">Creatine</a>
+                <a href="{% url 'products' %}?category=vitamins" class="dropdown-item">Vitamins</a>
+                <a href="{% url 'products' %}?category=protein,vitmains,amino_acids,creatine" class="dropdown-item">All Supplements</a>
             </div>
         </li>
         <!--Online memebership dropdown for links for user to access all memberships-->
@@ -31,8 +32,8 @@
                 Online Membership
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="online-link">
-                <a href="" class="dropdown-item">Plans</a>
-                <a href="" class="dropdown-item">All Plans</a>
+                <a href="% url 'products' %}?category=plans" class="dropdown-item">Plans</a>
+                <a href="% url 'products' %}?category=plans" class="dropdown-item">All Plans</a>
             </div>
         </li>
         <!-- Bargin dropdown for links for user to access all special offers
