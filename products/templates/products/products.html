@@ -23,10 +23,15 @@ class to cover the projects background imgae and give it a great background
         <div class="row">
             <div class="product-container col-10 offset-1">
                 <div class="row mt-1 mb-2"></div>
+                <!-- dajngo for loop used to iterate through the products valiable -->
                 <div class="row">
                     {% for product in products %}
+                    <!-- for each product a column will be generate -->
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                            <!-- bootstraps cards used to diaply product -->
                             <div class="card h-100 border-0">
+                                <!-- top of the bootsrap card which contains the image of the product -->
+                                <!-- if statment using images url that calls the image url -->
                                 {% if product.image %}
                                 <a href="">
                                     <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
@@ -36,13 +41,17 @@ class to cover the projects background imgae and give it a great background
                                     <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
                                 </a>
                                 {% endif %}
+                                <!-- card boy which contains the products name-->
                                 <div class="card-body pb-0">
                                     <p class="mb-0">{{ product.name }}</p>
                                 </div>
+                                <!-- footer which will containt the products details -->
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
                                         <div class="col">
+                                            <!-- calls product pricing -->
                                             <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
+                                            <!-- calls product rating -->
                                             {% if product.rating %}
                                                 <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
                                             {% else %}
@@ -53,27 +62,6 @@ class to cover the projects background imgae and give it a great background
                                 </div>
                             </div>
                         </div>
-                        {% if forloop.counter|divisibleby:1 %}
-                            <div class="col-12 d-sm-none mb-5">
-                                <hr>
-                            </div>
-                        {% endif %}                        
-                        {% if forloop.counter|divisibleby:2 %}
-                            <div class="col-12 d-none d-sm-block d-md-block d-lg-none mb-5">
-                                <hr>
-                            </div>
-                        {% endif %}
-                        {% if forloop.counter|divisibleby:3 %}
-                            <div class="col-12 d-none d-lg-block d-xl-none mb-5">
-                                <hr>
-                            </div>
-                        {% endif %}
-                        {% if forloop.counter|divisibleby:4 %}
-                            <div class="col-12 d-none d-xl-block mb-5">
-                                <hr>
-                            </div>
-                        {% endif %}
-                    {% endfor %}
                 </div>
             </div>
         </div>
