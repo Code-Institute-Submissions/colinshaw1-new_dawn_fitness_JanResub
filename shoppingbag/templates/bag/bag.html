@@ -27,7 +27,9 @@
                 <!-- django logic to render table  -->
                 <!-- if items in shopping bag table will be rendered -->
                 {% if bag_item %}
-                    <div class="table-responsive rounded"></div>
+                    <div class="table-responsive rounded">
+                        {{ bag_item }}
+                    </div>
                 {% else %}
                     <!-- if not render paragtaph to explain bag is empty -->
                     <p class="lead mb-5">Your bag is empty! Please select a product you would like before checking out</p>
