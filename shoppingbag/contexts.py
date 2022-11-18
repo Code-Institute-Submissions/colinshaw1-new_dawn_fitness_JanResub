@@ -1,5 +1,6 @@
 from decimal import Decimal
 from django.conf import settings
+from django.shortcuts import get_object_404
 
 # makes all dictioanries avialble to all templeates on the app
 def bag_contents(request):
@@ -10,6 +11,25 @@ def bag_contents(request):
     total = 0
     # count set to 0
     product_count = 0
+    # accessing the bag in session if it exists
+    bag = request.session.get('bag',{})
+
+    # for loop for each item and quanity in the bag to add to bag
+    # from course content
+    for item, quantity in bag.items():
+        # getting the product
+        product = get_object_404(product, pk=item_id)
+        # add price and quantity to total
+        total += quantity * product.price
+        # incremnts the product count by the quantity
+        bag_items.append(({
+            # dictonary added to bag
+            'item_id': item_id,
+            'quantity': quantity,
+            'product': product,
+        }))
+
+
 
     # calculation for free shipping and adding on cost of shipping
     if total < settings.FREE_DELIVERY_THRESHOLD:
