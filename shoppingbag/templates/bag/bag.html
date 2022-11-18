@@ -28,7 +28,20 @@
                 <!-- if items in shopping bag table will be rendered -->
                 {% if bag_item %}
                     <div class="table-responsive rounded">
-                        {{ bag_item }}
+                        <!-- table to show items in the bag taken from bootstrap docs -->
+                        <table class="table table-sm table-borderless">
+                            <thead class="text-black">
+                                <tr>
+                                    <!-- table headers for rendering products in shopping bag -->
+                                    <th scope="col">Product Description</th>
+                                    <th scope="col"></th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Quantity</th>
+                                    <th scope="col">Subtotal</th>
+                                </tr>
+                            </thead>
+
+                        </table>
                     </div>
                 {% else %}
                     <!-- if not render paragtaph to explain bag is empty -->
