@@ -19,7 +19,7 @@ def bag_contents(request):
     # from course content
     for item_id, quantity in bag.items():
         # getting the product
-        product = get_object_or_404(product, pk=item_id)
+        product = get_object_or_404(Product, pk=item_id)
         # add price and quantity to total
         total += quantity * product.price
         # incremnts the product count by the quantity
