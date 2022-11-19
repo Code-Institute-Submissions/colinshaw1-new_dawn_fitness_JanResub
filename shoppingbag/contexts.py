@@ -4,8 +4,10 @@ from django.shortcuts import get_object_or_404
 from products.models import Product
 
 # makes all dictioanries avialble to all templeates on the app
+
+
 def bag_contents(request):
-    
+
     # setting bag items to an empty list
     bag_items = []
     # total set to 0
@@ -13,24 +15,39 @@ def bag_contents(request):
     # count set to 0
     product_count = 0
     # accessing the bag in session if it exists
-    bag = request.session.get('bag',{})
+    bag = request.session.get('bag', {})
 
     # for loop for each item and quanity in the bag to add to bag
     # from course content
-    for item_id, quantity in bag.items():
+    # add item_data to use all data not just quantity
+    for item_id, item_data in bag.items():
+        # if statment for code to be executed if it only has sizes.
+        # if item is an integer it knows to use quantity
+        if isinstance(item_data, int)
         # getting the product
         product = get_object_or_404(Product, pk=item_id)
         # add price and quantity to total
-        total += quantity * product.price
+        total += item_data * product.price
+        product_count += item_data
         # incremnts the product count by the quantity
-        bag_items.append(({
+        bag_items.append({
             # dictonary added to bag
             'item_id': item_id,
-            'quantity': quantity,
+            'quantity': item_data,
             'product': product,
-        }))
-
-
+        })
+    # else it is a dictionary and it has to itterate accordingly through
+    else:
+        product = get_object_or_404(Product, pk=item_id)
+        for size, quantity in item_data['items_by_size'].items():
+            total += quantity * product.price
+            product_count += quantity
+            bag_items.append({
+                'item_id': item_id,
+                'quantity': quantity,
+                'product': product,
+                'size': size,
+            })
 
     # calculation for free shipping and adding on cost of shipping
     if total < settings.FREE_DELIVERY_THRESHOLD:
@@ -40,7 +57,7 @@ def bag_contents(request):
     else:
         delivery = 0
         free_delivery_delta = 0
-    
+
     grand_total = delivery + total
 
     # returns a dictionary as context processer
