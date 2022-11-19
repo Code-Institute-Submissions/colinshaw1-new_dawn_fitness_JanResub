@@ -28,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-colinshaw1-newdawnfitne-ubutazuc4rg.ws-eu75.gitpod.io/']
+CSRF_TRUSTED_ORIGINS = ['https://8000-colinshaw1-newdawnfitne-e59xqb4h7ch.ws-eu74.gitpod.io/']
 
 # Application definition
 
