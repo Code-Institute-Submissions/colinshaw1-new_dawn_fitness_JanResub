@@ -23,31 +23,31 @@ def bag_contents(request):
     for item_id, item_data in bag.items():
         # if statment for code to be executed if it only has sizes.
         # if item is an integer it knows to use quantity
-        if isinstance(item_data, int)
-        # getting the product
-        product = get_object_or_404(Product, pk=item_id)
-        # add price and quantity to total
-        total += item_data * product.price
-        product_count += item_data
-        # incremnts the product count by the quantity
-        bag_items.append({
-            # dictonary added to bag
-            'item_id': item_id,
-            'quantity': item_data,
-            'product': product,
-        })
-    # else it is a dictionary and it has to itterate accordingly through
-    else:
-        product = get_object_or_404(Product, pk=item_id)
-        for size, quantity in item_data['items_by_size'].items():
-            total += quantity * product.price
-            product_count += quantity
+        if isinstance(item_data, int):
+            # getting the product
+            product = get_object_or_404(Product, pk=item_id)
+            # add price and quantity to total
+            total += item_data * product.price
+            product_count += item_data
+            # incremnts the product count by the quantity
             bag_items.append({
+                # dictonary added to bag
                 'item_id': item_id,
-                'quantity': quantity,
+                'quantity': item_data,
                 'product': product,
-                'size': size,
             })
+        # else it is a dictionary and it has to itterate accordingly through
+        else:
+            product = get_object_or_404(Product, pk=item_id)
+            for size, quantity in item_data['items_by_size'].items():
+                total += quantity * product.price
+                product_count += quantity
+                bag_items.append({
+                    'item_id': item_id,
+                    'quantity': quantity,
+                    'product': product,
+                    'size': size,
+                })
 
     # calculation for free shipping and adding on cost of shipping
     if total < settings.FREE_DELIVERY_THRESHOLD:
