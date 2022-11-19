@@ -75,7 +75,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                # adding shopping bag context process, so bag contents will be aviable in alll tmeplates
+                # adding shopping bag context process, so bag contents will be avilable in alll tmeplates
                 'shoppingbag.contexts.bag_contents'
             ],
         },
