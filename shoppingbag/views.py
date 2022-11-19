@@ -9,8 +9,6 @@ def view_bag(request):
     return render(request, 'bag/bag.html')
 
 # add in add to bag view
-
-
 def add_to_bag(request, item_id):
     """Add quanity of a product to the shopping bag"""
     # get quanity and convert it to an integar as it is a string
