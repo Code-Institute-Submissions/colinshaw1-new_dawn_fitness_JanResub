@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, reverse
+from django.shortcuts import render, redirect, reverse, HttpResponse
 
 # Create your views here.
 
@@ -100,7 +100,7 @@ def remove_item(request, item_id):
         if size:
             # del if quantity is 0
             del bag[item_id]['items_by_size'][size]
-            if not bag[item_id]['item_by_size']:
+            if not bag[item_id]['items_by_size']:
                 bag.pop(item_id)
         #else if item has no size run orginal         
         else:        
