@@ -13,4 +13,7 @@ class OrderAdmin(admin.ModelAdmin):
     # columns to show up in order list
     list_display = ('order_number', 'date', 'full_name',
                     'order_total', 'delivery_cost',
-                    'grand_total',)   
+                    'grand_total',)
+    
+    # making sure orders will be ordered by date
+    ordering = ('-date',)
