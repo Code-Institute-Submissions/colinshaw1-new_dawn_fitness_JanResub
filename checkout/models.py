@@ -1,4 +1,5 @@
-from django.db import models
+# generates order numbers
+import uuids
 from django.db import models
 from django.db.models import Sum
 from django.conf import settings
@@ -22,6 +23,14 @@ class Order(models.Model):
     delivery_cost = models.DecimalField(max_digits=6, decimal_places=2, null=False, default=0)
     order_total = models.DecimalField(max_digits=10, decimal_places=2, null=False, default=0)
     grand_total = models.DecimalField(max_digits=10, decimal_places=2, null=False, default=0)
+
+    def _generate_order_number(self):
+        """
+        Generate a random, unique order number using UUID
+        """
+        # returns the random order number
+        return uuid.uuid4().hex.upper()
+
 
 # class for indivdual line items, will relate shopping bag items to orders number
 class OrderLineItem(models.Model):
