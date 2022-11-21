@@ -23,3 +23,5 @@ class OrderAdmin(admin.ModelAdmin):
     
     # making sure orders will be ordered by date
     ordering = ('-date',)
+
+admin.site.register(Order, OrderAdmin)
