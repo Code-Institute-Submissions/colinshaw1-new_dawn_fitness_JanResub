@@ -3,6 +3,12 @@ from .models import Order, OrderLineItem
 # Register your models here.
 
 #functionality take form course content
+
+# allows admin users to add and edit line items in admin
+class OrderLineItemAdminInline(admin.TabularInline):
+    model = OrderLineItem
+    readonly_fields = ('lineitem_total',)
+
 # class for order admin to generate administrion side
 class OrderAdmin(admin.ModelAdmin):
     inlines = (OrderLineItemAdminInline,)
