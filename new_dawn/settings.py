@@ -82,8 +82,9 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                # adding shopping bag context process, so bag contents will be avilable in alll tmeplates
-                'shoppingbag.contexts.bag_contents'
+                'django.template.context_processors.media',
+                # adding shopping bag context process, so bag contents will be available in alll tmeplates
+                'shoppingbag.contexts.bag_contents',
             ],
             # tells django what templates to use for crispy forms 
             'builtins': [
