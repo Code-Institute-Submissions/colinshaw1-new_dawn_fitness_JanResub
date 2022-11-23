@@ -138,16 +138,16 @@
             {% with message.level as level %}
                 <!-- level 40 in django is an error -->
                 {% if level == 40 %}
-                    {% include 'includes/toasts/toasts_error.html' %}
+                    {% include 'includes/toasts/toast_error.html' %}
                 <!-- level 30 is a warning -->
                 {% elif level == 30 %}
-                    {% include 'includes/toasts/toasts_warning.html' %}
+                    {% include 'includes/toasts/toast_warning.html' %}
                 <!-- level 25 is success -->
                 {% elif level == 25 %}
-                    {% include 'includes/toasts/toasts_success.html' %}
+                    {% include 'includes/toasts/toast_success.html' %}
                 <!-- defualt for everything else -->
                 {% else %}
-                    {% include 'includes/toasts/toasts_info.html' %}
+                    {% include 'includes/toasts/toast_info.html' %}
                 {% endif %}
             {% endwith %}
         {% endfor %}
