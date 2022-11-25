@@ -194,3 +194,5 @@ STRIPE_CURRENCY = 'eur'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 # setting the secret stripe key
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
+# setting stripe webhook secret key
+STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
