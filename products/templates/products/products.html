@@ -153,20 +153,20 @@
 
 {% block postloadjs %}
     <!-- javascript added to use sort methods and back to top button-->
-    block.super amends to the block instead of replacing
+    <!-- block.super amends to the block instead of replacing -->
     {{ block.super }}
     <!-- adding back to top button to products page -->
     <script type="text/javascript">
         // onclick method to send the request to go back to the top of the page
-		$('.btt-link').click(function(e) {
+		€('.btt-link').click(function(e) {
 			window.scrollTo(0,0)
 		})
 	</script>
     
     <script type="text/javascript">
         // captruing change event from selector
-        $('#sort-selector').change(function() {
-            var selector = $(this);
+        €('#sort-selector').change(function() {
+            var selector =€(this);
             var currentUrl = new URL(window.location);
 
             var selectedVal = selector.val()

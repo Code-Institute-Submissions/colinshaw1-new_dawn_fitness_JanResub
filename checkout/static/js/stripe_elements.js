@@ -5,9 +5,9 @@
     https://stripe.com/docs/stripe-js
 */
 // get strip public key
-var stripe_public_key = $('#id_stripe_public_key').text().slice(1, -1);
+var stripe_public_key = €('#id_stripe_public_key').text().slice(1, -1);
 // get stripe client key
-var client_secret = $('#id_client_secret').text().slice(1, -1);
+var client_secret = €('#id_client_secret').text().slice(1, -1);
 // use js in base.html file
 var stripe = Stripe(stripe_public_key);
 // create instance of stipe elements
@@ -30,3 +30,20 @@ var style = {
 };
 var card = elements.create('card', {style: style});
 card.mount('#card-element');
+
+// Handle realtime validation errors on the card element
+card.addEventListener('change', function (event) {
+    // eventlistener to add to the card erros div
+    var errorDiv = document.getElementById('card-errors');
+    if (event.error) {
+        var html = `
+            <span class="icon" role="alert">
+                <i class="fas fa-times"></i>
+            </span>
+            <span>€{event.error.message}</span>
+        `;
+        €(errorDiv).html(html);
+    } else {
+        errorDiv.textContent = '';
+    }
+});
