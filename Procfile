@@ -1,0 +1,1 @@
+web: gunicorn new-dawn-fitness.wsgi:application
