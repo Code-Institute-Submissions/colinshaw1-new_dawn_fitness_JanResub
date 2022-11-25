@@ -35,6 +35,7 @@ class StripeWH_Handler:
 
         order_exists = False
         attempt = 1
+        # while loop to try the order 5 times over 5 seconds
         while attempt <= 5:
             try:
                 order = Order.objects.get(
@@ -53,14 +54,17 @@ class StripeWH_Handler:
                 )
                 order_exists = True
                 break
+            # check if order exists are set to true
             except Order.DoesNotExist:
                 attempt += 1
                 time.sleep(1)
+        # if it has we will return 200 response
         if order_exists:
             return HttpResponse(
                 content=f'Webhook received: {event["type"]} | SUCCESS: Verified order already in database',
                 status=200)
         else:
+            # creating the order
             order = None
             try:
                 order = Order.objects.create(
