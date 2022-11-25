@@ -5,10 +5,14 @@ from django.conf import settings
 
 from .forms import OrderForm
 from .models import Order, OrderLineItem
+
 from products.models import Product
-from shoppingbag.contexts import bag_contents
+from profiles.models import UserProfile
+from profiles.forms import UserProfileForm
+from bag.contexts import bag_contents
 
 import stripe
+import json
 
 # Create your views here.
 # view for caching the meta data from billing and shipping info
@@ -175,7 +179,7 @@ def checkout_success(request, order_number):
             user_profile_form = UserProfileForm(profile_data, instance=profile)
             if user_profile_form.is_valid():
                 user_profile_form.save()
-                
+
     # success message and order number noted
     messages.success(request, f'Order successfully processed! \
         Your order number is {order_number}. A confirmation \
