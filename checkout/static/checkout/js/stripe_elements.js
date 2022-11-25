@@ -55,6 +55,9 @@ form.addEventListener('submit', function(ev) {
     // disaplys card element to prevern loads of submissions
     card.update({ 'disabled': true});
     $('#submit-button').attr('disabled', true);
+    // js to run the overlay when processing the payment
+    $('#payment-form').fadeToggle(100);
+    $('#loading-overlay').fadeToggle(100);
     // billing details by calling to stripe
     stripe.confirmCardPayment(clientSecret, {
         payment_method: {
