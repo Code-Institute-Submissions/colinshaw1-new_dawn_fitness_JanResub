@@ -1,1 +1,1 @@
-web: gunicorn new-dawn.wsgi:application
+web: gunicorn new-dawn.wsgi.application
