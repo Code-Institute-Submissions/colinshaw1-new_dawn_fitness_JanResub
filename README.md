@@ -9,10 +9,12 @@ For my milestone project 5 for Code Institute Diplome in Software development, I
 Heroku URL: https://new-dawn-fitness.herokuapp.com/
 
 GitHub URL: https://github.com/colinshaw1/new_dawn_fitness
+
 ------
 Owner
 -------
 The owner of this game is Colin Shaw. The goal is to help anyone who is looking at imporing or starting there fitness journey.
+
 -------
 Who is New Dawn Fitness for?
 ------
@@ -23,6 +25,7 @@ New Dawn Fitness is a new fitness site intended to help anyone who is intreseted
 How to use New Dawn
 ----
 New Dawn Fitness is an easy to navigate site and can be on an device. From the home you can navivgate to to anywhere in the application. The navbar has a responsive search bar that will return results of any project from the applications database. Within the navabr you can go to the profile section and create an account or login to see your order history or update your profile settings. Also you have the shopping cart where you can go to checkout securly using stripes secuire checkout settings. Under the navar you have the products you can choose you want to view via catrgories. 
+
 -----
 Screenshots of Application
 ---------
@@ -95,11 +98,13 @@ Website users
 • As a user, you want to be able to click on any link on the website to go to the source destination with no errors.
 
 • As a user, you want to be able to fill out a comment and submit it with no issues.
+
 -----
 Strategy Plane
 ------
 
 New Dawn Fitness was created and designed for for anyone looking to start or imprve there fitness journey. Anyone can easily set up an account and navigate though the application very easily. 
+
 -------
 Scope Plane
 
@@ -124,6 +129,7 @@ Scope Plane
 ------
 Structure Plane
 -------
+
 • The application consists of nine folders which contain the html, css, pyton that helps the applcation run.
 The the other appliaction folders Homepage, checkout, products, proifles and shoopping bags which hold the applications css, html, JavaScript and pyton files to help the applciation work via url links and views and models designed. 
 
@@ -138,6 +144,7 @@ Technologies used
 • Heroku is used for final deployment
 
 • Gitpod for design
+
 -------
 Resources
 ----
@@ -154,6 +161,7 @@ Resources
 • Course content was used for some functionality from walkthoughs 
 
 • Tutor support
+
 ---
 
 
