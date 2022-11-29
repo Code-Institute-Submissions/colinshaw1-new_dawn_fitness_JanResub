@@ -6,6 +6,7 @@ NEW DAWN FITNESS
 
 For my milestone project 5 for Code Institute Diplome in Software development, I have chosen Project Example Idea 1 to build a fintess subscription application. It will be a online fitness and nutrion site. New Dawn provides a platform for people who are into fitness or are looking to get into the world of fitness. Ina world which so much fitness clutter New Dawn will help people who are looking for an easy and simple fitness formula with online subscritions and a selection of nutrion products. It will be developed using Django which is a high-level Python web framework and deployed using Heroku.
 
+Heroku URL: https://new-dawn-fitness.herokuapp.com/
 
 GitHub URL: https://github.com/colinshaw1/new_dawn_fitness
 
@@ -208,7 +209,7 @@ Bugs
  !     Push rejected, failed to compile Python app.
  !     Push failed
  
-Unfortnutly this big was not fixed on time and applcintions static files load for AWS, in heroku for deployment.
+Unfortnutly this bug was not fixed on time and applcintions static files load for AWS, in heroku for deployment.
 
 
 
