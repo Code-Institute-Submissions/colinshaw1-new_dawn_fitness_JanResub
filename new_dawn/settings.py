@@ -49,7 +49,6 @@ INSTALLED_APPS = [
     'shoppingbag',
     'checkout',
     'profiles',
-    
     # other apps
     'crispy_forms',
     'storages',
@@ -89,7 +88,7 @@ TEMPLATES = [
                 # adding shopping bag context process, so bag contents will be available in alll tmeplates
                 'shoppingbag.contexts.bag_contents',
             ],
-            # tells django what templates to use for crispy forms 
+            # tells django what templates to use for crispy forms
             'builtins': [
                 'crispy_forms.templatetags.crispy_forms_tags',
                 'crispy_forms.templatetags.crispy_forms_field',
@@ -178,10 +177,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-#tells django where all static files are located. file has to be a tuple(())
+# tells django where all static files are located. file has to be a tuple(())
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
-#for all uploaded media files
+# for all uploaded media files
 MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
