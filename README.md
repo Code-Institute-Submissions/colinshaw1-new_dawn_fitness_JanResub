@@ -1,108 +1,202 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+NEW DAWN FITNESS
+------
+https://github.com/colinshaw1/new_dawn_fitness/issues/1#issue-1465087052
 
-Welcome Colin Shaw ,
+For my milestone project 5 for Code Institute Diplome in Software development, I have chosen Project Example Idea 1 to build a fintess subscription application. It will be a online fitness and nutrion site. New Dawn provides a platform for people who are into fitness or are looking to get into the world of fitness. Ina world which so much fitness clutter New Dawn will help people who are looking for an easy and simple fitness formula with online subscritions and a selection of nutrion products. It will be developed using Django which is a high-level Python web framework and deployed using Heroku.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+GitHub URL: https://github.com/colinshaw1/new_dawn_fitness
 
-## Gitpod Reminders
+Owner
+-------
+The owner of this game is Colin Shaw. The goal is to help anyone who is looking at imporing or starting there fitness journey.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Who is New Dawn Fitness for?
+------
+New Dawn Fitness is a new fitness site intended to help anyone who is intreseted in Fitness or looking to get into the world of fitness. If you are looking for some supplements or just looking to get a online plan then new dawn is for you. 
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+How to use New Dawn
+----
+New Dawn Fitness is an easy to navigate site and can be on an device. From the home you can navivgate to to anywhere in the application. The navbar has a responsive search bar that will return results of any project from the applications database. Within the navabr you can go to the profile section and create an account or login to see your order history or update your profile settings. Also you have the shopping cart where you can go to checkout securly using stripes secuire checkout settings. Under the navar you have the products you can choose you want to view via catrgories. 
 
-Another blue button should appear to click: _Open Browser_.
+Screenshots of Application
+---------
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
+Agile Methodology
 ------
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Start of planning Trello board
+-----
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![image](https://user-images.githubusercontent.com/56481190/204457165-d97a9b49-06aa-4d15-b1af-4bfead87580e.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Progress is underway as the products app is been started
+----
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![image](https://user-images.githubusercontent.com/56481190/204457409-31908cb5-eb17-45e3-97c4-5dc318ceeb18.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Products app is done and we move onot the checkout app
+-------
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![image](https://user-images.githubusercontent.com/56481190/204457593-13e04c4b-4f99-4aec-8f4e-912515d0e6cf.png)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Development is nearly done
+-------
+![image](https://user-images.githubusercontent.com/56481190/204457736-a9c2b97f-419b-4520-9d6e-b02d4aa884df.png)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Application progressing and just a couple of tasks left to do.
+------
+![image](https://user-images.githubusercontent.com/56481190/204457941-236de66d-73b8-4e47-bae8-ef5ecb0a8cf8.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Everything finsihed just needs to be deployed on Heroku
+------
+![image](https://user-images.githubusercontent.com/56481190/204458191-a5377753-eb38-41a0-9f9d-b357c531e86d.png)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+User Experience
+---
+Website users
 
+• As a user, you want to be able to navigate clearly and hassle-free throughout the whole application.
+
+• As a user, you want to be able to scroll and read the content on the website with no contrast.
+
+• As a user, you want to be able to click on any link on the website to go to the source destination with no errors.
+
+• As a user, you want to be able to fill out a comment and submit it with no issues.
+
+Strategy Plane
 ------
 
-## FAQ about the uptime script
+New Dawn Fitness was created and designed for for anyone looking to start or imprve there fitness journey. Anyone can easily set up an account and navigate though the application very easily. 
 
-**Why have you added this script?**
+Scope Plane
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+• Created in Django
 
-**How will this affect me?**
+• Home page has eight clickable links
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+• Click on the logo, search icon, profile icon, or checkout icon or the lets get started button in the home page to navgiate to the selected field
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+• New Dawn Fitness Logo navigates to the home page
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+• Search bar icon will return a search item from the list of products
 
-**So….?**
+• Profile icon will bring the user to the profile app section, in this section userscan regiser for an account, login or logout. Once logged in order hsitorys can be checked and profile settings updated.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+• Checkout icon will bring users to the checkout section were they can update an order and enter there details for a secure checkout using stripe.
 
-**Can I opt out?**
+• The products section will bring you to a selected product category. 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+• The lets get started button will load the all products category.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+Structure Plane
+-------
+• The application consists of nine folders which contain the html, css, pyton that helps the applcation run.
+The the other appliaction folders Homepage, checkout, products, proifles and shoopping bags which hold the applications css, html, JavaScript and pyton files to help the applciation work via url links and views and models designed. 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+Technologies used
+------------
+• Python is used to implement complex functions
+
+• Django is used as it is a python based framework and its models, templates and views simplify complex tasks
+
+• Git for storing files and deployment
+
+• Heroku is used for final deployment
+
+• Gitpod for design
+
+Resources
+
+• Code institute for material and ideas
+
+• Geeks for Geeks for information and ideas
+
+• W3 Schools for information and ideas
+
+• Slack for inspiration
+
+• YouTube for tutorials
+
+• Course content was used for some functionality from walkthoughs 
+
+• Tutor support
+
+• Forms on Django blog posts
+
+
+
+Bugs
 
 ---
+-----> Building on the Heroku-22 stack
+-----> Using buildpack: heroku/python
+-----> Python app detected
+-----> No Python version was specified. Using the same version as the last build: python-3.10.8
+       To use a different version, see: https://devcenter.heroku.com/articles/python-runtimes
+-----> No change in requirements detected, installing from cache
+-----> Using cached install of python-3.10.8
+-----> Installing pip 22.3.1, setuptools 63.4.3 and wheel 0.37.1
+-----> Installing SQLite3
+-----> Installing requirements with pip
+-----> $ python manage.py collectstatic --noinput
+       Traceback (most recent call last):
+         File "/tmp/build_77107db7/manage.py", line 22, in <module>
+           main()
+         File "/tmp/build_77107db7/manage.py", line 18, in main
+           execute_from_command_line(sys.argv)
+         File "/app/.heroku/python/lib/python3.10/site-packages/django/core/management/__init__.py", line 419, in execute_from_command_line
+           utility.execute()
+         File "/app/.heroku/python/lib/python3.10/site-packages/django/core/management/__init__.py", line 413, in execute
+           self.fetch_command(subcommand).run_from_argv(self.argv)
+         File "/app/.heroku/python/lib/python3.10/site-packages/django/core/management/base.py", line 354, in run_from_argv
+           self.execute(*args, **cmd_options)
+         File "/app/.heroku/python/lib/python3.10/site-packages/django/core/management/base.py", line 398, in execute
+           output = self.handle(*args, **options)
+         File "/app/.heroku/python/lib/python3.10/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py", line 187, in handle
+           collected = self.collect()
+         File "/app/.heroku/python/lib/python3.10/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py", line 114, in collect
+           handler(path, prefixed_path, storage)
+         File "/app/.heroku/python/lib/python3.10/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py", line 338, in copy_file
+           if not self.delete_file(path, prefixed_path, source_storage):
+         File "/app/.heroku/python/lib/python3.10/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py", line 248, in delete_file
+           if self.storage.exists(prefixed_path):
+         File "/app/.heroku/python/lib/python3.10/site-packages/storages/backends/s3boto3.py", line 467, in exists
+           self.connection.meta.client.head_object(Bucket=self.bucket_name, Key=name)
+         File "/app/.heroku/python/lib/python3.10/site-packages/botocore/client.py", line 530, in _api_call
+           return self._make_api_call(operation_name, kwargs)
+         File "/app/.heroku/python/lib/python3.10/site-packages/botocore/client.py", line 960, in _make_api_call
+           raise error_class(parsed_response, operation_name)
+       botocore.exceptions.ClientError: An error occurred (403) when calling the HeadObject operation: Forbidden
+ !     Error while running '$ python manage.py collectstatic --noinput'.
+       See traceback above for details.
+       You may need to update application code to resolve this error.
+       Or, you can disable collectstatic for this application:
+          $ heroku config:set DISABLE_COLLECTSTATIC=1
+       https://devcenter.heroku.com/articles/django-assets
+ !     Push rejected, failed to compile Python app.
+ !     Push failed
+ 
+Unfortnutly this big was not fixed on time and applcintions static files load for AWS, in heroku for deployment.
 
-Happy coding!
+
+
+Version Control
+
+-------
+GitHub and GitPod to update and commit changed to my repository all commits tracked to mark progress
+
+Deployment
+
+---
+Planned deployment via Heroku.
