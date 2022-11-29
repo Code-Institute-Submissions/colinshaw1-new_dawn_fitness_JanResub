@@ -216,7 +216,7 @@ Bugs
  !     Push rejected, failed to compile Python app.
  !     Push failed
  
-Unfortnutly this bug was not fixed on time and applcintions static files load for AWS, in heroku for deployment.
+Fixed this bug down to an error in my config var file in heroku.
 
 ----
 
@@ -228,4 +228,4 @@ GitHub and GitPod to update and commit changed to my repository all commits trac
 Deployment
 
 ---
-Planned deployment via Heroku.
+Deployed via Heroku.
