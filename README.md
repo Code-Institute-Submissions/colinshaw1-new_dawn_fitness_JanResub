@@ -1,6 +1,8 @@
 NEW DAWN FITNESS
 ------
-https://github.com/colinshaw1/new_dawn_fitness/issues/1#issue-1465087052
+
+![image](https://user-images.githubusercontent.com/56481190/204462894-c2c589dc-c158-4c9d-883a-bd51cc290b18.png)
+
 
 For my milestone project 5 for Code Institute Diplome in Software development, I have chosen Project Example Idea 1 to build a fintess subscription application. It will be a online fitness and nutrion site. New Dawn provides a platform for people who are into fitness or are looking to get into the world of fitness. Ina world which so much fitness clutter New Dawn will help people who are looking for an easy and simple fitness formula with online subscritions and a selection of nutrion products. It will be developed using Django which is a high-level Python web framework and deployed using Heroku.
 
@@ -22,13 +24,32 @@ New Dawn Fitness is an easy to navigate site and can be on an device. From the h
 
 Screenshots of Application
 ---------
+Homepage
+--
+![image](https://user-images.githubusercontent.com/56481190/204462972-724fd66e-53a9-4a17-be7b-2c26d58d592a.png)
+
+Protein Search 
+---
+![image](https://user-images.githubusercontent.com/56481190/204463038-a63a4e27-67a6-476c-b8bc-ef09bd375e70.png)
+
+![image](https://user-images.githubusercontent.com/56481190/204463125-009309a4-b5c5-4fd1-956b-832c4ab41640.png)
+
+Products details
+--
+![image](https://user-images.githubusercontent.com/56481190/204463197-14a4865c-40e2-4076-9c5d-ba8672c3d56d.png)
+
+Add to bag
+--
+![image](https://user-images.githubusercontent.com/56481190/204463270-fd0dac8d-72e7-40f8-b687-537c9c7e1b53.png)
+
+Shopping bag
+---
+![image](https://user-images.githubusercontent.com/56481190/204463354-94cdae76-92f2-446e-9212-f5eef2d811dd.png)
 
 
 
 Agile Methodology
 ------
-
-
 
 Start of planning Trello board
 -----
