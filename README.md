@@ -4,7 +4,7 @@ NEW DAWN FITNESS
 ![image](https://user-images.githubusercontent.com/56481190/204462894-c2c589dc-c158-4c9d-883a-bd51cc290b18.png)
 
 ----
-For my milestone project 5 for Code Institute Diplome in Software development, I have chosen Project Example Idea 1 to build a fintess subscription application. It will be a online fitness and nutrion site. New Dawn provides a platform for people who are into fitness or are looking to get into the world of fitness. Ina world which so much fitness clutter New Dawn will help people who are looking for an easy and simple fitness formula with online subscritions and a selection of nutrion products. It will be developed using Django which is a high-level Python web framework and deployed using Heroku.
+For my milestone project 5 for Code Institute Diplome in Software development, I have chosen Project Example Idea 1 to build a fitness subscription application. It will be an online fitness and nutrition site. New Dawn provides a platform for people who are into fitness or are looking to get into the world of fitness. In a world in which so much fitness clutter New Dawn will help people who are looking for an easy and simple fitness formula with online subscriptions and a selection of nutrition products. It will be developed using Django which is a high-level Python web framework and deployed using Heroku.
 
 Heroku URL: https://new-dawn-fitness.herokuapp.com/
 
@@ -13,18 +13,18 @@ GitHub URL: https://github.com/colinshaw1/new_dawn_fitness
 ------
 Owner
 -------
-The owner of this game is Colin Shaw. The goal is to help anyone who is looking at imporing or starting there fitness journey.
+The owner of New Dawn Fitness is Colin Shaw. The goal is to help anyone who is looking to improve or start their fitness journey.
 
 -------
 Who is New Dawn Fitness for?
 ------
-New Dawn Fitness is a new fitness site intended to help anyone who is intreseted in Fitness or looking to get into the world of fitness. If you are looking for some supplements or just looking to get a online plan then new dawn is for you. 
+New Dawn Fitness is a new fitness site intended to help anyone interested in Fitness or looking to get into the world of fitness. If you are looking for some supplements or just looking to get an online plan then new dawn is for you. 
 
 -------
 
 How to use New Dawn
 ----
-New Dawn Fitness is an easy to navigate site and can be on an device. From the home you can navivgate to to anywhere in the application. The navbar has a responsive search bar that will return results of any project from the applications database. Within the navabr you can go to the profile section and create an account or login to see your order history or update your profile settings. Also you have the shopping cart where you can go to checkout securly using stripes secuire checkout settings. Under the navar you have the products you can choose you want to view via catrgories. 
+New Dawn Fitness is an easy-to-navigate site and can be on a device. From the home, you can navigate anywhere in the application. The navbar has a responsive search bar that will return the results of any project from the application's database. Within the navbar, you can go to the profile section and create an account or log in to see your order history or update your profile settings. Also, you have the shopping cart where you can go to checkout securely using stripes secure checkout settings. Under the navbar, you have the products you can choose you to want to view via categories. 
 
 -----
 Screenshots of Application
@@ -56,7 +56,7 @@ Shopping bag
 Agile Methodology
 ------
 
-Start of planning Trello board
+Start planning the Trello board
 -----
 
 ![image](https://user-images.githubusercontent.com/56481190/204457165-d97a9b49-06aa-4d15-b1af-4bfead87580e.png)
@@ -67,7 +67,7 @@ Progress is underway as the products app is been started
 
 ![image](https://user-images.githubusercontent.com/56481190/204457409-31908cb5-eb17-45e3-97c4-5dc318ceeb18.png)
 ---
-Products app is done and we move onot the checkout app
+The products app is done and we move on to the checkout app
 -------
 
 ![image](https://user-images.githubusercontent.com/56481190/204457593-13e04c4b-4f99-4aec-8f4e-912515d0e6cf.png)
@@ -82,7 +82,7 @@ Application progressing and just a couple of tasks left to do.
 ![image](https://user-images.githubusercontent.com/56481190/204457941-236de66d-73b8-4e47-bae8-ef5ecb0a8cf8.png)
 
 ------
-Everything finsihed just needs to be deployed on Heroku
+Everything is finished just needs to be deployed on Heroku
 ------
 ![image](https://user-images.githubusercontent.com/56481190/204458191-a5377753-eb38-41a0-9f9d-b357c531e86d.png)
 
@@ -103,35 +103,37 @@ Website users
 Strategy Plane
 ------
 
-New Dawn Fitness was created and designed for for anyone looking to start or imprve there fitness journey. Anyone can easily set up an account and navigate though the application very easily. 
+New Dawn Fitness was created and designed for anyone looking to start or improve their fitness journey. Anyone can easily set up an account and navigate through the application very easily. 
 
 -------
 Scope Plane
+-----
 
 • Created in Django
 
 • Home page has eight clickable links
 
-• Click on the logo, search icon, profile icon, or checkout icon or the lets get started button in the home page to navgiate to the selected field
+• Click on the logo, search icon, profile icon, or checkout icon or the let's get started button on the home page to navigate to the selected field
 
 • New Dawn Fitness Logo navigates to the home page
 
 • Search bar icon will return a search item from the list of products
 
-• Profile icon will bring the user to the profile app section, in this section userscan regiser for an account, login or logout. Once logged in order hsitorys can be checked and profile settings updated.
+• Profile icon will bring the user to the profile app section, in this section users can register for an account, log in or log out. Once logged in order histories can be checked and profile settings updated.
 
-• Checkout icon will bring users to the checkout section were they can update an order and enter there details for a secure checkout using stripe.
+• Checkout icon will bring users to the checkout section where they can update their order and enter their details for a secure checkout using stripe.
 
 • The products section will bring you to a selected product category. 
 
-• The lets get started button will load the all products category.
+• The let's get started button will load all products category.
 
 ------
 Structure Plane
 -------
 
-• The application consists of nine folders which contain the html, css, pyton that helps the applcation run.
-The the other appliaction folders Homepage, checkout, products, proifles and shoopping bags which hold the applications css, html, JavaScript and pyton files to help the applciation work via url links and views and models designed. 
+• The application consists of nine folders which contain the HTML, CSS, and Python that help the application run.
+The other application folders are the Homepage, checkout, products, profiles and shopping bags which hold the application's CSS, HTML, JavaScript and python files to help the application work via URL links and views and models designed. 
+
 
 Technologies used
 ------------
@@ -141,7 +143,7 @@ Technologies used
 
 • Git for storing files and deployment
 
-• Heroku is used for final deployment
+• Heroku is used for the final deployment
 
 • Gitpod for design
 
@@ -158,7 +160,7 @@ Resources
 
 • YouTube for tutorials
 
-• Course content was used for some functionality from walkthoughs 
+• Course content was used for some functionality from walkthroughs  
 
 • Tutor support
 
@@ -221,11 +223,12 @@ Fixed this bug down to an error in my config var file in heroku.
 ----
 
 Version Control
-
 -------
-GitHub and GitPod to update and commit changed to my repository all commits tracked to mark progress
+       
+GitHub and GitPod to update and commit changes to my repository all commits tracked to mark progress
+       
 -----
 Deployment
-
 ---
+       
 Deployed via Heroku.
