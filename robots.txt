@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /profile/
+Disallow: /shopping/
+Sitemap: https://new-dawn-fitness.herokuapp.com/sitemap.xml
