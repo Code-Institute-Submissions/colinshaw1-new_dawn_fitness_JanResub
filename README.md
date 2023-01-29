@@ -96,17 +96,26 @@ First Time User
 ----
 
 a. As a user visiting the site for the first time you want to be able to understand the main objective of the application. 
+
 b. As a user visiting the site for the first time you want to easily navigate the site. 
+
 c. As a user visiting the site for the first time you want to be able to set up a profile.
 
 Frequent User
 -----
+
 a. As a returning user you want to be able to log in to your profile.
+
 b. As a returning user you want to be able to edit your profile.
+
 c. As a returning user you want to be able to add products to your cart.
+
 d. As a returning user you want to be able to check your cart.
+
 e. As a returning user you want to be able to edit your cart.
-f. As a returning user you want to be able to check out your cart
+
+f. As a returning user you want to be able to check out your cart.
+
 g. As a returning user, you want to be able to log out. 
 
 
@@ -193,27 +202,46 @@ First Time User
 ----
 
 a. As a user visiting the site for the first time you want to be able to understand the main objective of the application. 
+
 • This is achieved and a user can easily find the way through the application.
+
 b. As a user visiting the site for the first time you want to easily navigate the site. 
+
 • A user will navigate through and find products and register easily.
+
 c. As a user visiting the site for the first time you want to be able to set up a profile.
+
 • A user can register for a profile easily through the profile icon which allows a user to register or log in.
+
 
 Frequent User
 -----
 a. As a returning user you want to be able to log in to your profile.
+
 • A returning user can log in easily if they have a profile set up. 
+
 b. As a returning user you want to be able to edit your profile.
+
 • A user can edit details or reset passwords easily. 
+
 c. As a returning user you want to be able to add products to your cart.
+
 • A user can products and a selected quantity to their cart.
+
 d. As a returning user you want to be able to check your cart.
+
 • A user can check their cart through there the cart icon and view and update their cart.
+
 e. As a returning user you want to be able to edit your cart.
+
 • a user can update the cart, and remove or update quantities of items. 
+
 f. As a returning user you want to be able to check out your cart.
+
 • A user can easily checkout and fill in their details for secure checkout.
+
 g. As a returning user you want to be able to log out. 
+
 • A user can log out of their account once they want to end their session. 
 
 Bugs
