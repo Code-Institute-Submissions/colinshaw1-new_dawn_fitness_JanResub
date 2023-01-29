@@ -4,7 +4,7 @@ NEW DAWN FITNESS
 ![image](https://user-images.githubusercontent.com/56481190/204462894-c2c589dc-c158-4c9d-883a-bd51cc290b18.png)
 
 ----
-For my milestone project 5 for Code Institute Diplome in Software development, I have chosen Project Example Idea 1 to build a fitness subscription application. It will be an online fitness and nutrition site. New Dawn provides a platform for people who are into fitness or are looking to get into the world of fitness. In a world in which so much fitness clutter New Dawn will help people who are looking for an easy and simple fitness formula with online subscriptions and a selection of nutrition products. It will be developed using Django which is a high-level Python web framework and deployed using Heroku.
+For my milestone project 5 for Code Institute Diploma  in Software development, I have chosen Project Example Idea 1 to build a fitness subscription application. It will be an online fitness and nutrition site. New Dawn provides a platform for people who are into fitness or are looking to get into the world of fitness. In a world in which so much fitness clutter New Dawn will help people who are looking for an easy and simple fitness formula with online subscriptions and a selection of nutrition products. It will be developed using Django which is a high-level Python web framework and deployed using Heroku.
 
 Heroku URL: https://new-dawn-fitness.herokuapp.com/
 
@@ -24,7 +24,7 @@ New Dawn Fitness is a new fitness site intended to help anyone interested in Fit
 
 How to use New Dawn
 ----
-New Dawn Fitness is an easy-to-navigate site and can be on a device. From the home, you can navigate anywhere in the application. The navbar has a responsive search bar that will return the results of any project from the application's database. Within the navbar, you can go to the profile section and create an account or log in to see your order history or update your profile settings. Also, you have the shopping cart where you can go to checkout securely using stripes secure checkout settings. Under the navbar, you have the products you can choose you to want to view via categories. 
+New Dawn Fitness is an easy-to-navigate site and can be on a device. From the home, you can navigate anywhere in the application. The navbar has a responsive search bar that will return the results of any project from the application's database. Within the navbar, you can go to the profile section and create an account or log in to see your order history or update your profile settings. Also, you have the shopping cart where you can go to checkout securely using stripes secure checkout settings. Under the navbar, you have the products you can choose you want to view via categories. 
 
 -----
 Screenshots of Application
@@ -77,7 +77,7 @@ Development is nearly done
 -------
 ![image](https://user-images.githubusercontent.com/56481190/204457736-a9c2b97f-419b-4520-9d6e-b02d4aa884df.png)
 
-Application progressing and just a couple of tasks left to do.
+The application progressing and just a couple of tasks left to do.
 ------
 ![image](https://user-images.githubusercontent.com/56481190/204457941-236de66d-73b8-4e47-bae8-ef5ecb0a8cf8.png)
 
@@ -89,21 +89,43 @@ Everything is finished just needs to be deployed on Heroku
 
 User Experience
 ---
-Website users
-
-• As a user, you want to be able to navigate clearly and hassle-free throughout the whole application.
-
-• As a user, you want to be able to scroll and read the content on the website with no contrast.
-
-• As a user, you want to be able to click on any link on the website to go to the source destination with no errors.
-
-• As a user, you want to be able to fill out a comment and submit it with no issues.
-
+User Stories
 -----
-Strategy Plane
-------
 
-New Dawn Fitness was created and designed for anyone looking to start or improve their fitness journey. Anyone can easily set up an account and navigate through the application very easily. 
+First Time User
+----
+
+a. As a user visiting the site for the first time you want to be able to understand the main objective of the application. 
+b. As a user visiting the site for the first time you want to easily navigate the site. 
+c. As a user visiting the site for the first time you want to be able to set up a profile.
+
+Frequent User
+-----
+a. As a returning user you want to be able to log in to your profile.
+b. As a returning user you want to be able to edit your profile.
+c. As a returning user you want to be able to add products to your cart.
+d. As a returning user you want to be able to check your cart.
+e. As a returning user you want to be able to edit your cart.
+f. As a returning user you want to be able to check out your cart
+g. As a returning user, you want to be able to log out. 
+
+
+Design
+---
+
+Colour Scheme
+--
+• White background, davy grey body and black buttons.
+
+Typography
+--
+• The Lato font from google fonts is used throughout the application. 
+
+Imagery
+---
+• the large image on the homepage catches the eye and breaths energy into the page and emphasises the new dawn effect. 
+
+
 
 -------
 Scope Plane
@@ -137,7 +159,7 @@ The other application folders are the Homepage, checkout, products, profiles and
 
 Technologies used
 ------------
-• Python is used to implement complex functions
+• Languages used Django, python, JavaScript, HTML, CSS
 
 • Django is used as it is a python based framework and its models, templates and views simplify complex tasks
 
@@ -165,7 +187,34 @@ Resources
 • Tutor support
 
 ---
+Testing
+-----
+First Time User
+----
 
+a. As a user visiting the site for the first time you want to be able to understand the main objective of the application. 
+• This is achieved and a user can easily find the way through the application.
+b. As a user visiting the site for the first time you want to easily navigate the site. 
+• A user will navigate through and find products and register easily.
+c. As a user visiting the site for the first time you want to be able to set up a profile.
+• A user can register for a profile easily through the profile icon which allows a user to register or log in.
+
+Frequent User
+-----
+a. As a returning user you want to be able to log in to your profile.
+• A returning user can log in easily if they have a profile set up. 
+b. As a returning user you want to be able to edit your profile.
+• A user can edit details or reset passwords easily. 
+c. As a returning user you want to be able to add products to your cart.
+• A user can products and a selected quantity to their cart.
+d. As a returning user you want to be able to check your cart.
+• A user can check their cart through there the cart icon and view and update their cart.
+e. As a returning user you want to be able to edit your cart.
+• a user can update the cart, and remove or update quantities of items. 
+f. As a returning user you want to be able to check out your cart.
+• A user can easily checkout and fill in their details for secure checkout.
+g. As a returning user you want to be able to log out. 
+• A user can log out of their account once they want to end their session. 
 
 Bugs
 
@@ -231,4 +280,6 @@ GitHub and GitPod to update and commit changes to my repository all commits trac
 Deployment
 ---
        
-Deployed via Heroku.
+Deployed via Heroku. The application was deployed to Heroku very easily. 
+A new database is needed for production which is postgress, the SQLite database can be used for development. changes needed to be incorporated in the settings.py file and a secret key was removed and added to the config vars in Heroku. All static files need to be loaded using AWS. A profile and disable static on the site through the terminal allowed deployment to be done.
+
