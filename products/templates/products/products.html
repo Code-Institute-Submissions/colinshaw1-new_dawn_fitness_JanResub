@@ -166,10 +166,10 @@
     <script type="text/javascript">
         // captruing change event from selector
         $('#sort-selector').change(function() {
-            var selector =$(this);
+            var selector = $(this);
             var currentUrl = new URL(window.location);
 
-            var selectedVal = selector.val()
+            var selectedVal = selector.val();
             // resets sorting to default
             if(selectedVal != "reset"){
                 // if not sorted and directions gets split at underscore by sorting or direction
@@ -183,7 +183,6 @@
                 // replace current location to the updated url and relaod page
                 window.location.replace(currentUrl);
             } else {
-
                 currentUrl.searchParams.delete("sort");
                 currentUrl.searchParams.delete("direction");
 
