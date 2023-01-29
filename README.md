@@ -31,7 +31,7 @@ Screenshots of Application
 ---------
 Homepage
 --
-![image](https://user-images.githubusercontent.com/56481190/204462972-724fd66e-53a9-4a17-be7b-2c26d58d592a.png)
+![image](https://user-images.githubusercontent.com/56481190/215324012-5350c8af-cae5-47d8-8b43-d0b78e138d40.png)
 
 Protein Search 
 ---
